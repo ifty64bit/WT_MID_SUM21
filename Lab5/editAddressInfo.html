@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Address Information</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Address Information</legend>
+            <table align="center">
+                <tr>
+                    <td>
+                        Address Information:
+                    </td>
+                    <td>
+                        <input type="text" name="house" id="house" placeholder="House No">
+                        <input type="text" name="road" id="road" placeholder="Road No"> <br>
+                        <input type="text" name="block" id="block" placeholder="Block No">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Division:
+                    </td>
+                    <td>
+                        <select name="division" id="division">
+                            <option value="--Division--" disabled>--Division--</option>
+                            <option value="dhaka">Dhaka</option>
+                            <option value="chittagong">Chittagong</option>
+                            <option value="khulna">Khulna</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        District:
+                    </td>
+                    <td>
+                        <select name="district" id="district">
+                            <option value="--district--" disabled>--District--</option>
+                            <option value="Comilla">Comilla</option>
+                            <option value="chadpur">Chadpur</option>
+                            <option value="gazipur">Gazipur</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ZIP:
+                    </td>
+                    <td>
+                        <input type="text" name="zip" id="zip">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="text" name="phone" id="phone" placeholder="Phone"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="text" name="day" id="day" placeholder="Date"> <br>
+                        <input type="text" name="month" id="month" placeholder="Month"> <br>
+                        <input type="text" name="year" id="year" placeholder="Year">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" name="gender" id="gender" value="female">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Save"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
